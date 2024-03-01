@@ -14,6 +14,9 @@
 		B46DF6FB2B91B47500562129 /* DogWallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DF6FA2B91B47500562129 /* DogWallpaperTests.swift */; };
 		B46DF7052B91B47500562129 /* DogWallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DF7042B91B47500562129 /* DogWallpaperUITests.swift */; };
 		B46DF7072B91B47500562129 /* DogWallpaperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DF7062B91B47500562129 /* DogWallpaperUITestsLaunchTests.swift */; };
+		B46DF7142B91B83F00562129 /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DF7132B91B83F00562129 /* DogViewModel.swift */; };
+		B46DF7162B91B9E500562129 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DF7152B91B9E500562129 /* RemoteImage.swift */; };
+		B46DF7182B91BAFA00562129 /* DogAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DF7172B91BAFA00562129 /* DogAPIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B46DF7002B91B47500562129 /* DogWallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogWallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46DF7042B91B47500562129 /* DogWallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWallpaperUITests.swift; sourceTree = "<group>"; };
 		B46DF7062B91B47500562129 /* DogWallpaperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWallpaperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B46DF7132B91B83F00562129 /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
+		B46DF7152B91B9E500562129 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		B46DF7172B91BAFA00562129 /* DogAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				B46DF6E92B91B47400562129 /* DogWallpaperApp.swift */,
 				B46DF6EB2B91B47400562129 /* ContentView.swift */,
+				B46DF7152B91B9E500562129 /* RemoteImage.swift */,
+				B46DF7172B91BAFA00562129 /* DogAPIManager.swift */,
+				B46DF7132B91B83F00562129 /* DogViewModel.swift */,
 				B46DF6ED2B91B47500562129 /* Assets.xcassets */,
 				B46DF6EF2B91B47500562129 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46DF7142B91B83F00562129 /* DogViewModel.swift in Sources */,
+				B46DF7182B91BAFA00562129 /* DogAPIManager.swift in Sources */,
 				B46DF6EC2B91B47400562129 /* ContentView.swift in Sources */,
 				B46DF6EA2B91B47400562129 /* DogWallpaperApp.swift in Sources */,
+				B46DF7162B91B9E500562129 /* RemoteImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
